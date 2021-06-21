@@ -1,30 +1,12 @@
 # Work Day Scheduler
 
-## Your Task
+## Project Purpose
 
 The purpose of this project was to create a simple calendar application that allows a user to save events for each hour of the day. This web application uses Javascript and Moment.js to dynamically update the scheduling and conditionally format the hours of the day. The styling of the webpage is formed via Bootstrap.
 
 
-## Acceptance Criteria
+## Use
+When accessing the planner you are able to view an hour by hour time block where you can schedule in notes for your day. Once the time has passed then the block will then be colored to indicate that the time is in the past. The same applies for the present hour block and future hour block.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
+You are presented with timeblocks for standard business hours.
+once you click "save" you can store your notes to the specific timeblock you have chosen.
