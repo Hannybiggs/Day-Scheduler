@@ -1,7 +1,7 @@
 # Work Day Scheduler
 
 [Check the deployed application](https://hannybiggs.github.io/Day-Scheduler/)
-<img src= "https://github.com/Hannybiggs/online_offline_budget_tracker/blob/main/Assets/Screenshot%202021-07-09%20143941.png">
+<img src= "https://github.com/Hannybiggs/Day-Scheduler/blob/main/Assets/workdayscheduler%20-%20Copy.png">
 
 ## Project Purpose
 
