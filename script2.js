@@ -9,6 +9,8 @@ const timeByHour = document.querySelectorAll(".input-group-text");
 var today = moment();
 currentTime.textContent = today.format("MMM Do, YYYY");
 
+
+
 //Function for updating the rows based on time
 function updatedTime(){
     var hour = moment().hours();
@@ -35,11 +37,14 @@ function saveMessage(event) {
 
        saveButton.addEventListener("click", function(event) {saveMessage(event)})
 
+
+
+
 // function saveMessage(){
 //     console.log(this);
 // }
 
-// saveButton.addEventListener("click", saveMessage);
+saveButton.addEventListener("click", saveMessage);
 
 
 
